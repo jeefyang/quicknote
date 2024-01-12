@@ -61,7 +61,7 @@ export class App {
             }
             let file = path.join(this.pwDir, data.filePath)
             if (!fs.existsSync(file)) {
-                fs.writeFileSync(file, `{"data":[],"pw":""}`, { 'encoding': "utf-8" })
+                fs.writeFileSync(file, `{"datas":[],"pw":""}`, { 'encoding': "utf-8" })
             }
             let str = fs.readFileSync(file, { encoding: "utf-8" })
             let json: PWJSON = JSON.parse(str)
