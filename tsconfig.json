@@ -1,0 +1,23 @@
+{
+    "compilerOptions": {
+        "module": "CommonJS",
+        //允许any类型,降低开发难度
+        "noImplicitAny": false,
+        // 是否删除编译后的注释
+        "removeComments": false,
+        // 保留 const和 enum声明
+        "preserveConstEnums": true,
+        // 是否需要生成map文件,方便调试时可以指出调试的位置
+        "sourceMap": true,
+        // 输出的文件
+        "outDir": "./js",
+        // 需要编译成的版本
+        "target": "ES6",
+        // 是否需要生成d.ts文件
+        "declaration": true,
+    },
+    // 要编译的文件
+    "include": [
+        "./ts/**/*.ts"
+    ]
+}

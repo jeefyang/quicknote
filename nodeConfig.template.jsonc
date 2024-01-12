@@ -1,0 +1,12 @@
+{
+    "listen": 5888,
+    "htmlList": [
+        {
+            "title": "test",
+            "filePath": "transNote.json",
+            "mainPW": null,
+            "type": "note",
+            "head": "transNote.html"
+        }
+    ]
+}

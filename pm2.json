@@ -1,0 +1,15 @@
+{
+    "name": "galPW",
+    "script": "./js/App.js",
+    "cwd": "/home/node/toy/GalPWNode",
+    "watch": [
+        "js"
+    ],
+    "merge_logs": false,
+    "restart_delay": 60000000,
+    "log_date_format": "YYYY-MM-DD HH:mm:ss",
+    "out_file": "./GalPWNode.log",
+    "watch_options": {
+        "followSymlinks": false
+    }
+}
